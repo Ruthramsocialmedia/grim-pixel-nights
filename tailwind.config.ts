@@ -57,6 +57,22 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        "gothic-purple": {
+          DEFAULT: "hsl(var(--gothic-purple))",
+          light: "hsl(var(--gothic-purple-light))",
+          dark: "hsl(var(--gothic-purple-dark))",
+        },
+        "blood-red": {
+          DEFAULT: "hsl(var(--blood-red))",
+          light: "hsl(var(--blood-red-light))",
+        },
+        "stone-gray": {
+          DEFAULT: "hsl(var(--stone-gray))",
+          dark: "hsl(var(--stone-gray-dark))",
+        },
+        "candle-gold": "hsl(var(--candle-gold))",
+        "shadow-black": "hsl(var(--shadow-black))",
+        "ghost-green": "hsl(var(--ghost-green))",
       },
       borderRadius: {
         lg: "var(--radius)",
@@ -84,6 +100,12 @@ export default {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+        "pixel-flicker": "pixelFlicker 2s infinite alternate",
+        "candle-glow": "candleGlow 3s infinite alternate",
+      },
+      backdropFilter: {
+        'none': 'none',
+        'blur': 'blur(8px)',
       },
     },
   },
